@@ -199,6 +199,8 @@ function handleAnswer(
 export function handleConnection(ws: WebSocket, wss: WebSocketServer) {
   let playerId: string | null = null;
 
+  console.log(`[ws] new connection (total clients: ${wss.clients.size})`);
+
   // Send current state immediately so new connections get game context
   send(ws, { type: "state_sync", state: getPublicState() });
 
@@ -208,10 +210,8 @@ export function handleConnection(ws: WebSocket, wss: WebSocketServer) {
 
       if (msg.type === "join") {
         // Reconnect to existing player OR create new one
-        const id =
-          msg.playerId && state.players.has(msg.playerId)
-            ? msg.playerId
-            : randomUUID();
+        const isReconnect = !!(msg.playerId && state.players.has(msg.playerId));
+        const id = isReconnect ? msg.playerId! : randomUUID();
 
         playerId = id;
         const existing = state.players.get(id);
@@ -224,6 +224,8 @@ export function handleConnection(ws: WebSocket, wss: WebSocketServer) {
           answeredCurrentQuestion: existing?.answeredCurrentQuestion ?? false,
           currentAnswer: existing?.currentAnswer ?? null,
         });
+
+        console.log(`[ws] player ${isReconnect ? "reconnected" : "joined"}: "${msg.name}" (id=${id}, total=${state.players.size})`);
 
         send(ws, { type: "init", playerId: id });
         broadcastState(wss);
@@ -245,6 +247,7 @@ export function handleConnection(ws: WebSocket, wss: WebSocketServer) {
   });
 
   ws.on("close", () => {
+    console.log(`[ws] connection closed (playerId=${playerId ?? "unknown"}, clients remaining: ${wss.clients.size - 1})`);
     // Don't remove player — just let their connected status reflect in state
     broadcastState(wss);
   });
