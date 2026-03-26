@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      # Bind-mount source so edits hot-reload immediately
+      - .:/app
+      # Shadow the host node_modules and .next with container-built ones
+      - /app/node_modules
+      - /app/.next

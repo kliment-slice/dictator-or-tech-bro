@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:dictatorortechbro.com)",
+      "Bash(curl:*)"
+    ]
+  }
+}

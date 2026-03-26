@@ -1,0 +1,226 @@
+{
+  "categories": {
+    "dictator": {
+      "label": "Dictator",
+      "color": "#dc2626",
+      "description": "Said by a dictator or authoritarian leader"
+    },
+    "techbro": {
+      "label": "Tech Bro",
+      "color": "#2563eb",
+      "description": "Said by a tech billionaire or Silicon Valley exec"
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "quote": "Move fast and break things.",
+      "category": "techbro",
+      "attribution": "Mark Zuckerberg",
+      "hint": "Facebook's early internal motto"
+    },
+    {
+      "id": 2,
+      "quote": "If you're not a liberal when you're 25, you have no heart. If you're not a conservative by 35, you have no brain.",
+      "category": "dictator",
+      "attribution": "Often misattributed, but popularized by authoritarian-adjacent figures",
+      "hint": "A classic misquote used to justify shifting politics"
+    },
+    {
+      "id": 3,
+      "quote": "Competition is for losers.",
+      "category": "techbro",
+      "attribution": "Peter Thiel",
+      "hint": "Billionaire PayPal co-founder and venture capitalist"
+    },
+    {
+      "id": 4,
+      "quote": "It is enough that the people know there was an election. The people who cast the votes decide nothing. The people who count the votes decide everything.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet leader responsible for the deaths of millions"
+    },
+    {
+      "id": 5,
+      "quote": "I could either watch it happen or be a part of it.",
+      "category": "techbro",
+      "attribution": "Elon Musk",
+      "hint": "World's richest person, owner of X (formerly Twitter)"
+    },
+    {
+      "id": 6,
+      "quote": "The death of one man is a tragedy. The death of millions is a statistic.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet dictator who ruled the USSR from 1924–1953"
+    },
+    {
+      "id": 7,
+      "quote": "The best minds of my generation are thinking about how to make people click ads.",
+      "category": "techbro",
+      "attribution": "Jeff Hammerbacher (early Facebook engineer)",
+      "hint": "A lament from inside Silicon Valley"
+    },
+    {
+      "id": 8,
+      "quote": "If you want to know who controls you, look at who you are not allowed to criticize.",
+      "category": "dictator",
+      "attribution": "Often misattributed to Voltaire, actually from white nationalist Kevin Strom",
+      "hint": "A quote often weaponized by authoritarian movements"
+    },
+    {
+      "id": 9,
+      "quote": "Your margin is my opportunity.",
+      "category": "techbro",
+      "attribution": "Jeff Bezos",
+      "hint": "Amazon founder and Blue Origin CEO"
+    },
+    {
+      "id": 10,
+      "quote": "Ideas are more powerful than guns. We would not let our enemies have guns, why should we let them have ideas?",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet dictator known for mass censorship and purges"
+    },
+    {
+      "id": 11,
+      "quote": "We are a nation of laws, but we're also a nation of humans.",
+      "category": "techbro",
+      "attribution": "Mark Zuckerberg",
+      "hint": "Meta CEO defending policy decisions"
+    },
+    {
+      "id": 12,
+      "quote": "He who controls the media controls the minds of the public.",
+      "category": "dictator",
+      "attribution": "Noam Chomsky, though often co-opted by authoritarian figures",
+      "hint": "Describes propaganda techniques used by authoritarian regimes"
+    },
+    {
+      "id": 13,
+      "quote": "The best way to predict the future is to invent it.",
+      "category": "techbro",
+      "attribution": "Alan Kay (often quoted by tech founders)",
+      "hint": "A favorite Silicon Valley maxim"
+    },
+    {
+      "id": 14,
+      "quote": "We will bury you.",
+      "category": "dictator",
+      "attribution": "Nikita Khrushchev",
+      "hint": "Soviet Premier who faced off against the US during the Cold War"
+    },
+    {
+      "id": 15,
+      "quote": "We want to give everyone in the world the best education for free.",
+      "category": "techbro",
+      "attribution": "Mark Zuckerberg (on internet.org)",
+      "hint": "Tech altruism that critics called digital colonialism"
+    },
+    {
+      "id": 16,
+      "quote": "One death is a tragedy; a million deaths is a statistic. When one man is robbed of a loaf of bread, it is a theft. When millions are robbed of their dignity, it is policy.",
+      "category": "dictator",
+      "attribution": "Attributed to Soviet-era thinking",
+      "hint": "Reflects the dehumanizing logic of mass authoritarian rule"
+    },
+    {
+      "id": 17,
+      "quote": "I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.",
+      "category": "techbro",
+      "attribution": "Elon Musk",
+      "hint": "The world's richest man, speaking about iteration"
+    },
+    {
+      "id": 18,
+      "quote": "Print is the sharpest and the strongest weapon of our party.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet dictator on controlling the press"
+    },
+    {
+      "id": 19,
+      "quote": "We're all just temporarily embarrassed billionaires.",
+      "category": "techbro",
+      "attribution": "Paraphrase of John Steinbeck, adopted as a Silicon Valley attitude",
+      "hint": "The ethos behind hustle culture and startup mythology"
+    },
+    {
+      "id": 20,
+      "quote": "Don't interfere with anything in the Constitution. That must be maintained, for it is the only safeguard of our liberties.",
+      "category": "dictator",
+      "attribution": "Abraham Lincoln (often misused by authoritarian populists)",
+      "hint": "A quote weaponized out of context by those who undermine institutions"
+    },
+    {
+      "id": 21,
+      "quote": "People don't want to buy a quarter-inch drill. They want a quarter-inch hole.",
+      "category": "techbro",
+      "attribution": "Theodore Levitt, endlessly quoted in product circles",
+      "hint": "The mantra of product-market fit obsessives"
+    },
+    {
+      "id": 22,
+      "quote": "Education is a weapon whose effects depend on who holds it in his hands and at whom it is aimed.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet leader who controlled all Soviet education"
+    },
+    {
+      "id": 23,
+      "quote": "The biggest risk is not taking any risk.",
+      "category": "techbro",
+      "attribution": "Mark Zuckerberg",
+      "hint": "Meta CEO's philosophy on bold moves"
+    },
+    {
+      "id": 24,
+      "quote": "To choose one's victims, to prepare one's plan minutely, to slake an implacable vengeance, and then to go to bed. There is nothing sweeter in the world.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet dictator describing his approach to political enemies"
+    },
+    {
+      "id": 25,
+      "quote": "Insanely great.",
+      "category": "techbro",
+      "attribution": "Steve Jobs",
+      "hint": "Apple co-founder's favorite product superlative"
+    },
+    {
+      "id": 26,
+      "quote": "A single death is a tragedy; a million deaths is a statistic.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet leader responsible for millions of deaths through purges and famine"
+    },
+    {
+      "id": 27,
+      "quote": "Disrupt or be disrupted.",
+      "category": "techbro",
+      "attribution": "Common Silicon Valley saying",
+      "hint": "The rallying cry of startup culture"
+    },
+    {
+      "id": 28,
+      "quote": "Gratitude is a sickness suffered by dogs.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet dictator notorious for purging loyal allies"
+    },
+    {
+      "id": 29,
+      "quote": "We have to go from a world where to get the most powerful computers we have to use the internet, to one where the most powerful computers are offline.",
+      "category": "techbro",
+      "attribution": "Sam Altman (OpenAI CEO)",
+      "hint": "AI maximalist and Y Combinator alumni"
+    },
+    {
+      "id": 30,
+      "quote": "No amount of cajolery, and no attempts at ethical or social seduction, can eradicate from my heart a deep burning hatred for the Tory Party. So far as I am concerned they are lower than vermin.",
+      "category": "dictator",
+      "attribution": "Aneurin Bevan (British politician, often misidentified)",
+      "hint": "Passionate rhetoric that sounds authoritarian but came from a democratic socialist"
+    }
+  ]
+}
