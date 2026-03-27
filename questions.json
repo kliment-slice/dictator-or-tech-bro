@@ -221,6 +221,83 @@
       "category": "dictator",
       "attribution": "Aneurin Bevan (British politician, often misidentified)",
       "hint": "Passionate rhetoric that sounds authoritarian but came from a democratic socialist"
+    },
+    {
+      "id": 31,
+      "quote": "I think we have a duty to maintain the light of consciousness to make sure it continues into the future.",
+      "category": "techbro",
+      "attribution": "Elon Musk",
+      "hint": "SpaceX and Tesla CEO with grand visions for humanity's future"
+    },
+    {
+      "id": 32,
+      "quote": "I know that we made mistakes.",
+      "category": "techbro",
+      "attribution": "Elizabeth Holmes",
+      "hint": "Theranos founder convicted of fraud"
+    },
+    {
+      "id": 33,
+      "quote": "Liberty is a duty, not a right.",
+      "category": "dictator",
+      "attribution": "Benito Mussolini",
+      "hint": "Italian fascist dictator who ruled from 1922–1943"
+    },
+    {
+      "id": 34,
+      "quote": "I would never read a book... I'm very skeptical of books.",
+      "category": "techbro",
+      "attribution": "Sam Bankman-Fried",
+      "hint": "FTX founder convicted of massive crypto fraud"
+    },
+    {
+      "id": 35,
+      "quote": "Lincoln was a man who created himself from nothing without any help from outside or other people. I see certain similarities between him and me.",
+      "category": "dictator",
+      "attribution": "Muammar Gaddafi",
+      "hint": "Libyan dictator who ruled for over 40 years"
+    },
+    {
+      "id": 36,
+      "quote": "I call on you not to hate, because hate does not leave space for a person to be fair and it makes you blind and closes all doors of thinking.",
+      "category": "dictator",
+      "attribution": "Saddam Hussein",
+      "hint": "Iraqi dictator who ruled through terror for over two decades"
+    },
+    {
+      "id": 37,
+      "quote": "We understand the great arc of human history bends towards people coming together in ever greater numbers — from tribes to cities to nations — to achieve things we couldn't on our own.",
+      "category": "techbro",
+      "attribution": "Mark Zuckerberg",
+      "hint": "Meta CEO speaking about the power of connection"
+    },
+    {
+      "id": 38,
+      "quote": "I was only an aspiring dictator. I was never a real dictator.",
+      "category": "dictator",
+      "attribution": "Augusto Pinochet",
+      "hint": "Chilean military dictator who seized power in a 1973 coup"
+    },
+    {
+      "id": 39,
+      "quote": "We will make the impossible possible.",
+      "category": "dictator",
+      "attribution": "Mao Zedong",
+      "hint": "Chinese communist leader whose policies led to millions of deaths"
+    },
+    {
+      "id": 40,
+      "quote": "History will absolve me.",
+      "category": "dictator",
+      "attribution": "Fidel Castro",
+      "hint": "Cuban revolutionary who ruled for nearly 50 years"
+    },
+    {
+      "id": 41,
+      "quote": "The press is the enemy of the people.",
+      "category": "dictator",
+      "attribution": "Joseph Stalin",
+      "hint": "Soviet dictator who suppressed all press freedom"
     }
   ]
 }
